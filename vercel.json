@@ -1,0 +1,41 @@
+{
+  "$comment": "Eagle Network Solutions — clean URLs + 301 redirect map. Deploy this with the site on Vercel. 'cleanUrls' lets /managed-it-support resolve to the file; rewrites map pretty paths to the .html files; redirects send old WordPress URLs to the new structure.",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/", "destination": "/Homepage.html" },
+    { "source": "/managed-it-support", "destination": "/Solutions.html" },
+    { "source": "/cybersecurity", "destination": "/Solutions.html" },
+    { "source": "/strategic-it", "destination": "/Solutions.html" },
+    { "source": "/hardware-physical-security", "destination": "/Solutions.html" },
+    { "source": "/co-managed-it", "destination": "/CoManagedIT.html" },
+    { "source": "/remote-only-it", "destination": "/RemoteOnlyIT.html" },
+    { "source": "/cyber-insurance-readiness", "destination": "/CyberInsuranceReadiness.html" },
+    { "source": "/industries", "destination": "/Industries.html" },
+    { "source": "/industries/municipalities", "destination": "/Municipalities.html" },
+    { "source": "/industries/manufacturing", "destination": "/Manufacturing.html" },
+    { "source": "/industries/distribution", "destination": "/Distribution.html" },
+    { "source": "/industries/professional-services", "destination": "/ProfessionalServices.html" },
+    { "source": "/industries/property-management", "destination": "/PropertyManagement.html" },
+    { "source": "/industries/non-profits", "destination": "/NonProfits.html" },
+    { "source": "/about", "destination": "/About.html" },
+    { "source": "/our-team", "destination": "/About.html" },
+    { "source": "/customer-feedback", "destination": "/About.html" },
+    { "source": "/blog-news", "destination": "/Blog.html" },
+    { "source": "/contact", "destination": "/Contact.html" },
+    { "source": "/privacy-policy", "destination": "/PrivacyPolicy.html" },
+    { "source": "/accessibility-statement", "destination": "/AccessibilityStatement.html" }
+  ],
+  "redirects": [
+    { "source": "/it-support-plans", "destination": "/managed-it-support", "permanent": true },
+    { "source": "/solutions", "destination": "/managed-it-support", "permanent": true },
+    { "source": "/managed-services", "destination": "/managed-it-support", "permanent": true },
+    { "source": "/cyber-security", "destination": "/cybersecurity", "permanent": true },
+    { "source": "/blog-cyber-insurance-claim-denied", "destination": "/cyber-insurance-readiness", "permanent": true },
+    { "source": "/blog-silent-ransom-group-in-person-attacks", "destination": "/blog-news", "permanent": true },
+    { "source": "/team", "destination": "/our-team", "permanent": true },
+    { "source": "/reviews", "destination": "/customer-feedback", "permanent": true },
+    { "source": "/contact-us", "destination": "/contact", "permanent": true },
+    { "source": "/home", "destination": "/", "permanent": true }
+  ]
+}
