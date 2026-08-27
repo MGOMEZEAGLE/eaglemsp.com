@@ -1,5 +1,4 @@
 {
-  "$comment": "Eagle Network Solutions — clean URLs + 301 redirect map. Deploy this with the site on Vercel. 'cleanUrls' lets /managed-it-support resolve to the file; rewrites map pretty paths to the .html files; redirects send old WordPress URLs to the new structure.",
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
