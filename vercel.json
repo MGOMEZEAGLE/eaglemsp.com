@@ -1,6 +1,4 @@
 {
-  "$comment": "Eagle Network Solutions — clean URLs + 301 redirect map. cleanUrls lets /managed-it-support resolve; rewrites map pretty paths to the .html files; redirects send retired category URLs to the new Solutions structure.",
-  "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
     { "source": "/", "destination": "/Homepage.html" },
