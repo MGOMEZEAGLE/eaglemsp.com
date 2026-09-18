@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c3c70"></stop>
+      <stop offset="60%" stop-color="#0b1c3a"></stop>
+      <stop offset="100%" stop-color="#070f1f"></stop>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.7" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#3a7bc8" stop-opacity="0.5"></stop>
+      <stop offset="100%" stop-color="#3a7bc8" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#sky)"></rect>
+  <rect width="800" height="500" fill="url(#glow)"></rect>
+  
+  <g stroke="#2563a8" stroke-opacity="0.10" stroke-width="1">
+    <path d="M0 100 H800 M0 200 H800 M0 300 H800 M0 400 H800"></path>
+    <path d="M100 0 V500 M200 0 V500 M300 0 V500 M400 0 V500 M500 0 V500 M600 0 V500 M700 0 V500"></path>
+  </g>
+  
+  <g fill="#6fa3dc" fill-opacity="0.85">
+    <circle cx="180" cy="160" r="4"></circle>
+    <circle cx="320" cy="240" r="3"></circle>
+    <circle cx="500" cy="180" r="5"></circle>
+    <circle cx="610" cy="320" r="3"></circle>
+    <circle cx="240" cy="380" r="4"></circle>
+    <circle cx="430" cy="380" r="3"></circle>
+  </g>
+  <g stroke="#6fa3dc" stroke-opacity="0.35" stroke-width="1" fill="none">
+    <path d="M180 160 L320 240 L500 180 L610 320 M320 240 L240 380 L430 380 L610 320"></path>
+  </g>
+  
+  <g fill="#fff" fill-opacity="0.06" transform="translate(400 250) scale(6)">
+    <path d="M-14-2c2-5 8-7 13-6 2-3 6-5 10-4-2 3-3 7-3 10 4 2 6 5 6 9-4-1-8 0-11 3-2 4-6 6-10 6-3 0-7-1-9-3 4-1 7-3 9-7-3 0-6-2-7-5 3 0 6-1 8-3z"></path>
+  </g>
+</svg>
