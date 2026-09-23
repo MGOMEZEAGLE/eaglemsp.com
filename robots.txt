@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://eaglemsp.com/sitemap.xml
